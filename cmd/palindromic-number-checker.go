@@ -1,8 +1,6 @@
 package main
 
-import (
-	"fmt"
-)
+import "fmt"
 
 func isPalindrome(num int) bool {
 	if num < 0 {
@@ -29,7 +27,7 @@ func isPalindrome(num int) bool {
 }
 
 func main() {
-	num := 22
+	num := 45
 	if isPalindrome(num) {
 		fmt.Println(num, "is a palindrome number.")
 	} else {
